@@ -19,7 +19,7 @@ const countModifier = (count=0,action) =>{
             return count;
     }   
 
-};
+}; 
 
 const countStore=createStore(countModifier);
 
